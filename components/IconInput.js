@@ -6,7 +6,7 @@ export default class IconInput extends React.Component{
     return(
       <View style={style.layoutstyle}>
 
-        <Image style={style.iconstyle} source={require('../assets/images/icons/lock.png')}/>
+
         <TextInput style={style.textinput} onChangeText = {(text) => console.log("working")} underlineColorAndroid = "transparent" placeholder ={this.props.placeLabel}/>
       </View>
     );

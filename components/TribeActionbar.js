@@ -5,9 +5,7 @@ export default class TribeActionbar extends React.Component{
   render(){
     return(
       <View>
-        <Text style={style.actionbarlayout}>
-          Tribe
-        </Text>
+
       </View>
     );
   }
@@ -16,6 +14,7 @@ export default class TribeActionbar extends React.Component{
 const style = StyleSheet.create({
   actionbarlayout:{
     backgroundColor:"red",
+    padding:20,
     color:"#FFF"
   }
 });

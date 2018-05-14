@@ -15,7 +15,6 @@ export default class LoginForm extends React.Component{
   render(){
     return(
       <View ref = "loginForm" style={styles.loginlayout}>
-        <IconInput placeLabel="blachdaf" iconType="lock"/>
         <TextInput onChangeText = {(text) => this.setState({LoginPassword:text})} ref = "PasswordField" underlineColorAndroid = "transparent" placeholder = "Password" style={styles.forminputs}/>
         <Button title="Login" onPress={() => this.props.check(this.state)}/>
 
